@@ -1,0 +1,47 @@
+.server-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.server-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background: #36393f;
+  color: #dcddde;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.server-icon:hover {
+  background: #5865f2;
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+.server-icon.active {
+  background: #5865f2;
+  border-radius: 16px;
+  color: #ffffff;
+}
+
+.server-icon.add-server {
+  background: #36393f;
+  color: #3ba55d;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.server-icon.add-server:hover {
+  background: #3ba55d;
+  color: #ffffff;
+}
+
